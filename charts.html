@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="globalize.js"></script>
+<script src="dx.chartjs.js"></script>
+<script src="ajax_json_with_charts.js"></script>
+</head>
+
+<body>
+<div style="padding-bottom:25px">
+  <form id="request">
+      <label>Alias <input type="text" name="alias" id="alias" ></label>
+      <label>Start Date <input type="date" name="startDate" id="startDate" ></label>
+      <label>End Date <input type="date" name="endDate" id="endDate"  ></label>
+      <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div style="width: 100%; overflow: hidden;height:auto;padding:8px 8px 8px 8px;">
+  <div id="data1" style="width:50%;float:left;height:500px;align:center;"></div>
+  <div id="data2" style="width:50%;float:left;height: 500px;align:center;"></div>
+</div>
+<div style="width: 100%; overflow: hidden;height:auto;padding:25px 25px 25px 25px">
+  <div style="width:50%;float:left;text-align:center;height:500px;">
+    <p id="first data"style="margin-top:25%;margin-bottom:0%;font-size:800%;font-family:Arial;color:1975FF;"></p>
+    <p id="second data"style="font-size:150%;margin-top:0%;font-family:Arial;"></p>
+  </div>
+</div>
+
+</body>
+</html>
